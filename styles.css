@@ -1,15 +1,14 @@
 #container{
-    width: 384px;
-    height: 384px;
+    width: 320px;
+    height: 320px;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+    
   
 }
 .box{
-    height: 24px;
-    width: 24px;
-    background-color: aquamarine;
-    
+    width: calc(100% / var(--boxnb));
+    height: calc(100% / var(--boxnb));
+    background-color: rgb(15, 108, 139);
+ 
 }
